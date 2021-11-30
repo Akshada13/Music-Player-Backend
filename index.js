@@ -7,7 +7,6 @@ const mongoClient = mongodb.MongoClient;
 const dotenv = require('dotenv');
 dotenv.config();
 
-//const URL = 'mongodb+srv://root:root123@cluster0.rqyfo.mongodb.net/music?retryWrites=true&w=majority';
 const url = process.env.DB
 app.use(cors({
     origin: "*"
